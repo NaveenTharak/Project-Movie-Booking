@@ -1,0 +1,155 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./node_modules/react-horizontal-datepicker/dist/DatePicker.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.DatePicker_container__WMFBj {
+    display: flex;
+    width: 100%;
+    background: inherit;
+}
+
+.DatePicker_buttonWrapper__jLE62 {
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    background: inherit;
+}
+
+.DatePicker_button__PrrU5 {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.DatePicker_dateListScrollable__YskCW {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 2px 0 2px -40px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.DatePicker_dateListScrollable__YskCW::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.DatePicker_monthContainer__nweGg {
+    display: flex;
+    flex-direction: column;
+}
+
+.DatePicker_monthYearLabel__d9AoT {
+    align-self: flex-start;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: max-content;
+    margin: 0 14px 10px 0;
+}
+
+.DatePicker_dateDayItem__34xJt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+    width: 45px;
+    height: 49px;
+    flex-shrink: 0;
+}
+
+.DatePicker_daysContainer__lfQJV {
+    display: flex;
+    z-index: 1;
+}
+
+.DatePicker_dayLabel__ZrpmT {
+    font-size: 12px;
+    margin: 4px 0 0 0;
+}
+
+.DatePicker_dateLabel__86mz_ {
+    font-size: 18px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/[cityname]/movies/[movieid]/buytickets/BuyTicketsPage.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+.buytickets .head{
+    background-color: var(--col2);
+    padding: 20px;
+}
+.buytickets{
+    background-color: rgb(228, 228, 228);
+    min-height: 100vh;
+    width: 100%;
+}
+.buytickets .s1{
+    background-color: white;
+}
+.buytickets .head h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.buytickets .head h3{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 25px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.buytickets .screens{
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buytickets .screens .screen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 10px;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.buytickets .screens .screen:last-child{
+    border-bottom: none;
+}
+.buytickets .screens .screen h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.buytickets .screens .screen h3{
+    font-size: 15px;
+    font-weight: 600;
+}

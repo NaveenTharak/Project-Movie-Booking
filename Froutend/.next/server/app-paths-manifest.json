@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/auth/signin/page": "app/auth/signin/page.js",
+  "/[cityname]/movies/[movieid]/page": "app/[cityname]/movies/[movieid]/page.js",
+  "/[cityname]/movies/[movieid]/buytickets/page": "app/[cityname]/movies/[movieid]/buytickets/page.js",
+  "/[cityname]/movies/[movieid]/buytickets/[screenid]/page": "app/[cityname]/movies/[movieid]/buytickets/[screenid]/page.js"
+}
